@@ -11,4 +11,10 @@ https://blog.csdn.net/wcandy001/article/details/79714010<br>
 
 
 python动态规划若干问题：<br>
-https://blog.csdn.net/qq_26567507/article/details/80768329
+https://blog.csdn.net/qq_26567507/article/details/80768329<br>
+
+
+
+找零钱问题<br>
+有多少种找零钱的方式，最少的找钱方式：https://blog.csdn.net/jclian91/article/details/80485184<br>
+参考动态规划法（一）从斐波那契数列谈起：https://blog.csdn.net/jclian91/article/details/80475836

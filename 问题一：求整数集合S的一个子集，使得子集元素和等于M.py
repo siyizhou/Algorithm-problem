@@ -34,3 +34,4 @@ if f[n][m]:
             m = m - s[i-1]
         if m <= 0:
             break
+result

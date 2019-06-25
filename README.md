@@ -1,6 +1,8 @@
 # 归并排序
 核心思想：分治<br>
 https://blog.csdn.net/k_koris/article/details/80508543<br>
+python实现:<br>
+https://www.cnblogs.com/Lin-Yi/p/7309143.html<br>
 
 归并细节：比如有两个已经排序好的数组，如何将他归并成一个数组？<br>
 

@@ -1,20 +1,9 @@
-# 动态规划问题
+# 归并排序
+核心思想：分治<br>
+https://blog.csdn.net/k_koris/article/details/80508543<br>
 
-TSP问题（旅行商问题）
-详解！！！：https://www.cnblogs.com/youmuchen/p/6879579.html<br>
-解释：https://cloud.tencent.com/developer/article/1103366<br>
-代码：https://blog.csdn.net/sinat_36811967/article/details/89340580<br>
+归并细节：比如有两个已经排序好的数组，如何将他归并成一个数组？<br>
 
-python实现：考虑一个场景：当你有去沙漠旅行，你有一个背包和一些物品，背包有最大承受重量，物品也有重量和价值，而物品种类很多，<br>
-不可能全都装在背包里，如何去选取价值总量最高的物品组合呢？<br>
-https://blog.csdn.net/wcandy001/article/details/79714010<br>
-
-
-python动态规划若干问题：<br>
-https://blog.csdn.net/qq_26567507/article/details/80768329<br>
-
-
-
-找零钱问题<br>
-有多少种找零钱的方式，最少的找钱方式：https://blog.csdn.net/jclian91/article/details/80485184<br>
-参考动态规划法（一）从斐波那契数列谈起：https://blog.csdn.net/jclian91/article/details/80475836
+我们可以开辟一个临时数组来辅助我们的归并。<br>
+也就是说他比我们插入排序也好，选择排序也好多使用了存储的空间，也就是说他需要o（n）的额外空间来完成这个排序。<br>
+只不过现在计算机中时间的效率要比空间的效率重要的多。无论是内存也好还是硬盘也好可以存储的数据越来越多，所以设计一个算法，时间复杂度是要优先考虑的。<br>

@@ -4,6 +4,10 @@ https://blog.csdn.net/k_koris/article/details/80508543<br>
 python实现:<br>
 https://www.cnblogs.com/Lin-Yi/p/7309143.html<br>
 
+时间复杂度： 最好最坏都是 O(nlogn)<br>
+稳定性：稳定<br>
+缺点：每次拆分数组都要开心的数组， 每次合并数组都要开新数组，空间复杂度很大<br>
+
 归并细节：比如有两个已经排序好的数组，如何将他归并成一个数组？<br>
 
 我们可以开辟一个临时数组来辅助我们的归并。<br>

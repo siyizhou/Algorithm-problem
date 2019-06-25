@@ -34,3 +34,29 @@ def merge(l1,l2):
 
 l = [5,4 ,3 ,2 ,1]
 merge_sort(l)
+
+
+# 或者
+def merge_sort(l):
+    if len(l) == 1:
+        return l
+    
+    mid = len(l)//2
+    left = l[:mid]
+    right = l[mid:]
+    
+    l1 = merge_sort(left)
+    l2 = merge_sort(right)
+    
+    return merge(l1,l2)
+
+def merge(l1,l2):
+    l = []
+    while l1 and l2:
+        if l1[0] < l2[0]:
+            l.append(l1.pop(0))
+        else:
+            l.append(l2.pop(0))
+    l += l1
+    l += l2
+    return l

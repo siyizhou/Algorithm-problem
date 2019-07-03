@@ -1,7 +1,7 @@
 # 子集
 class Solution:
 	def subsets(self, nums):		
-        if not nums:
+                if not nums:
 			return []
 		res = []
 		n = len(nums)

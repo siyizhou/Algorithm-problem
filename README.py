@@ -39,3 +39,26 @@ class Solution:
                 
         helper([],0,f)
         return res
+
+
+class Solution:
+    def permute(self, nums: List[int]) -> List[List[int]]:
+        
+        if not nums:
+            return 
+        
+        res = []
+        n = len(nums)
+        
+        def helper(nums,tmp,length):
+            if length == n:
+                res.append(tmp)
+                return
+            for i in range(len(nums)):
+                helper(nums[:i] + nums[i+1:], tmp + [nums[i]], length+1)
+                
+        helper(nums,[],0)
+        
+        return res
+        
+   
